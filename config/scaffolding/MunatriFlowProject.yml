@@ -10,6 +10,11 @@ packages:
 - name: WmSalesforceProvider
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
+- name: PublicPrivateCheck
+  gitServerName: GithubOrigin
+  gitUrl: https://github.com/Munatri
+  gitUsername: Munatri
+  gitBranch: main
 services:
 - serviceName: project.munatriflow.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SFAug10
   packages:
