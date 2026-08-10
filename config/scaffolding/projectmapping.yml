@@ -1,0 +1,9 @@
+version: "1.0"
+projectName: MunatriFlowProject
+runtimes:
+- runtimeAlias: Flow1203
+  assets:
+  - name: fld_111332778_stage00.projects.fl5caae687eccb4bb5b79c4475e8db0242.integrations:wmpkg
+    type: flow
+    stepId: /0
+    reference: fld_111332778_stage00.projects.fl5caae687eccb4bb5b79c4475e8db0242.WmPackageServiceProvider.project.munatriflow.integrations:sfDAF
