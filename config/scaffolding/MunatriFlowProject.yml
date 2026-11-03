@@ -8,17 +8,25 @@ packages:
   gitUsername: Munatri
   gitBranch: main
 - name: WmSalesforceProvider
+  version: 12.0.0.0.23
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
 - name: PublicPrivateCheck
+  version: "1.0"
   gitServerName: GithubOrigin
   gitUrl: https://github.com/Munatri
   gitUsername: Munatri
   gitBranch: main
 services:
-- serviceName: project.munatriflow.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SFAug10
+- serviceName: project.munatriflow.integrations:daf1
   packages:
   - name: MunatriFlowProject
     version: "1.0"
+  - name: PublicPrivateCheck
+    version: "1.0"
   - name: WmSalesforceProvider
-    version: 12.0.0.0.23
+    version: 12.0.0.0.25
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1223
